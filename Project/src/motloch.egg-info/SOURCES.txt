@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/motloch/__init__.py
+src/motloch/motloch.py
+src/motloch.egg-info/PKG-INFO
+src/motloch.egg-info/SOURCES.txt
+src/motloch.egg-info/dependency_links.txt
+src/motloch.egg-info/top_level.txt
