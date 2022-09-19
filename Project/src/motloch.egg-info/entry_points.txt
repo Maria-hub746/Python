@@ -1,2 +1,2 @@
 [console_scripts]
-clean-folder = motloch:main
+clean-folder = motloch.motloch:main
