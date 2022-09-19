@@ -13,3 +13,5 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+[project.scripts]
+clean-folder = "motloch:main"

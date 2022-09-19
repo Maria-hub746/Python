@@ -3,6 +3,17 @@ import re
 import os
 import sys
 from pathlib import Path
+
+
+def main():
+    path = sys.argv[1]#r'C:\Users\Asus\Desktop\clean'
+    if len(sys.argv) < 2:
+        raise ValueError('empty path')
+    if not (os.path.exists(path) and Path(path).is_dir()):
+        raise ValueError('incorrect path')
+
+    cleaner(path)
+    print(':)')
 #Translate
 def normilize(word):
     CYRILLIC_SYMBOLS = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяєіїґ"#1234567890
@@ -79,12 +90,5 @@ def cleaner(folder):
 
 
 if __name__ == "__main__":
-    path = sys.argv[1]#r'C:\Users\Asus\Desktop\clean'
-    if len(sys.argv) < 2:
-        raise ValueError('empty path')
-    if not (os.path.exists(path) and Path(path).is_dir()):
-        raise ValueError('incorrect path')
-
-    cleaner(path)
-    print(':)')
-#python motloch.py C:\Users\Asus\Desktop\clean | cd C:\Users\Asus\Desktop\Projects
+    main()
+#python motloch.py C:\Users\Asus\Desktop\clean | cd C:\Users\Asus\Desktop\p

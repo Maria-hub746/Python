@@ -6,4 +6,5 @@ src/motloch/motloch.py
 src/motloch.egg-info/PKG-INFO
 src/motloch.egg-info/SOURCES.txt
 src/motloch.egg-info/dependency_links.txt
+src/motloch.egg-info/entry_points.txt
 src/motloch.egg-info/top_level.txt
